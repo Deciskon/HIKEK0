@@ -1,0 +1,22 @@
+# Standard NA62MC settings for HIKE Phase 2 (K to mumu) configuration (run 30000 to be used)
+/control/echo [NA62MC] Applying run-dependent settings from CDB
+
+/beam/SetBeam KL
+/beam/neutral/TargetZPosition 113000.0
+/beam/neutral/TargetRadius 20.0
+/beam/neutral/ProductionAngle 0.003
+/beam/neutral/OpeningAngle 0.001
+/beam/neutral/MinMomentum -1
+/beam/neutral/MaxMomentum -1
+/beam/neutral/FlatMomentumSpectrum 0
+
+/Detector/MagneticField/BlueTube/Scale 0.0
+
+/decay/zMin 120000
+/decay/zMax 200000
+/decay/type 421
+
+/decay/force 2
+
+/kine/MinZConversions 212500
+/kine/MaxZConversions 237000

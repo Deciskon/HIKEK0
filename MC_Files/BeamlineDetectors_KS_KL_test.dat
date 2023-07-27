@@ -1,0 +1,15 @@
+# List of subdetectors for runs 4174-9462 (Run1, 2016-2018 data)
+# Format: X,Y,Z coordinates of the back plane centre [mm], rotation angles [degrees]
+Spectrometer("STRAW0", 0, 0, 1)             0 0 183705.525 0 0 0
+#BlueTube(10.159, 1.4, 1.415, false, true)   0 0 193865 0 0 0
+Spectrometer("STRAW1", 1, 0, 1)             0 0 194260.525 0 0 0
+#BlueTube(1.6744, 1.4, 1.415, false, true)   0 0 195935 0 0 0
+#BlueTube(.015, 1.1955, 1.415, false, true)  0 0 195950 0 0 0
+#BlueTube(.35, 1.1845, 1.1955, false, true) 0 0 196345 0 0 0
+SpectrometerMagnet(1.0)                     0 0 197645 0 0 0
+#BlueTube(1.3, 1.1845, 1.1955, false, true) 0 0 197645 0 0 0 This is the grey tube inside the MNP33 magnet. It is already created with the magnet's geometry
+#BlueTube(.42, 1.1845, 1.1955, false, true)  0 0 198065 0 0 0
+#BlueTube(6.187, 1.4, 1.415, false, true)    0 0 202334 0 0 0
+Spectrometer("STRAW2", 2, 0, 1)             0 0 204647.525 0 0 0
+#BlueTube(14.022, 1.4, 1.415, false, true)   0 0 216760 0 0 0
+Spectrometer("STRAW3", 3, 0, 1)             0 0 219073.325 0 0 0

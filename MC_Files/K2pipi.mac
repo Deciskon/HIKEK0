@@ -1,0 +1,38 @@
+##################### Standard settings #####################################################
+## Set path where all .mac files are located. Use full path if needed.
+## Here, the path within the NA62FW installation is set:
+/control/getEnv NA62MCSOURCE
+/control/macroPath {NA62MCSOURCE}/macros
+
+## Load NA62 standard MC settings
+/control/execute MainRun.mac
+
+
+##################### Individual settings ###################################################
+## For individual settings, either change the macros called in MainRun.mac, or
+## add indiviual options here, which will overwrite options from above. Either add this line
+##   /control/execute <yoursettings.mac>
+## or place the corresponding datacard commands directly below, e.g.:
+##   /decay/force 0
+##
+## For reverting/changing standard settings that concern creator/end processes, 
+## particle types or creation volumes to be rejected/saved (*ToReject, *ToSave):
+## use the 'clear' command first, and then set all (new) parameters.
+## The clear command will also remove the standard settings.
+## See NA62FW/NA62MC/macros/Standard_KinePartOptions.mac or doxygen.
+##
+#/control/echo [StandardRun.mac] Reading individual .mac file or settings
+
+## add the execution of your macro here:
+/beam/SetBeam KS
+/beam/neutral/TargetZPosition 100000.0
+/beam/neutral/ProductionAngle 0.004
+/beam/neutral/OpeningAngle 0.001
+/Detector/SubDetectorListFileName BeamlineDetectors_KS_KL_test.dat
+/Detector/MagneticField/BlueTube/Scale 1.0
+/decay/force 2
+/decay/type 601
+/decay/zMin 100000.0
+/decay/zMax 190000.0
+
+## add new settings here:
