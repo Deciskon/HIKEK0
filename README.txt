@@ -20,3 +20,7 @@ D) 'Codes' contains the bulk of what my time was spent doing and running over th
 
 Please feel free to email me at (harrsh.goyal@students.iiserpune.ac.in) or (harrsh.goyal@cern.ch) or (scepxorus@gmail.com) for any issues or questions.
 K0, enjoy.
+
+
+P.S.
+As an add-on, you can access the slides presentation (https://docs.google.com/presentation/d/1e2RKUplLKU9JjVrNqxO_XH1ZR0pCFdawO5WPVtZMP7o/edit?usp=sharing) containing a bunch of important results and basic information on how said results were obtained. Also, check the following google sheets doc (https://docs.google.com/spreadsheets/d/1hK2DYkHPSqPoH19BIojPw-5Nwnf47CUB4NFeC7NZwcs/edit?usp=sharing) which contains the data for various different mode of generation and fitting and how the fit and the uncertainity of the various parameters (CS, Cint and Phi0) turned out.
