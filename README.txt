@@ -1,5 +1,6 @@
 Hello. Welcome to HIKE. In this repository, you will find necessary code, papers, etc. to get up and running. Look! We have a penguin too:  
 https://na62.web.cern.ch/home/home.html
+https://na62-sw.web.cern.ch/d8/d7c/ge_installation.html  [Framework Tutorial]
 
 
 A) All the necessary papers, reviews and presentations in the 'Papaers_and_Reviews' folder (yes I'm aware of the typo, merely too lazy to correct it :) ).
